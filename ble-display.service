@@ -1,0 +1,13 @@
+[Unit]
+Description=BLE Display
+Wants=time-sync.target
+After=multi-user.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/home/pi/venv/bin/python /home/pi/ble-display.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
