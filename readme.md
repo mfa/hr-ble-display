@@ -2,6 +2,8 @@
 
 using a Chest strap, a PI zero 2 and an i2c-display
 
+blog post: <https://madflex.de/raspberrypi-bluetooth-heart-rate-display/>
+
 ### Parts
 
 - PI zero 2 with Raspberry Pi OS installed
