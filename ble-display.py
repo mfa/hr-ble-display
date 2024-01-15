@@ -32,9 +32,9 @@ def display_bpm(bpm, workout_seconds):
         fill=255,
     )
     draw.text(
-        (128 - 45, 64 - 20),
+        (128 - 55, 64 - 25),
         f"{int(workout_seconds/60):02}:{(workout_seconds%60):02}",
-        font=ImageFont.load_default(size=17),
+        font=ImageFont.load_default(size=21),
         fill=255,
     )
 
